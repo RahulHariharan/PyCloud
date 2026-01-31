@@ -19,7 +19,7 @@ def monitor_cpu(interval=1):
             
             print(f"Total Usage: {total_usage}%")
             print(f"Per Core:    [{per_core_str}]")
-            print("-" * 60)
+            print("-" * 80)
 
     except KeyboardInterrupt:
         print("\nMonitoring stopped by user.")
